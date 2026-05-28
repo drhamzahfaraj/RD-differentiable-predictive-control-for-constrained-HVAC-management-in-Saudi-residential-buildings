@@ -119,29 +119,29 @@ RD-DPC-HVAC/
 ```
 OFFLINE (one-time training)
 ┌──────────────────────────────────────────────────────┐
-│ Stage 1: Residual Model Learning                      │
+│ Stage 1: Residual Model Learning                     │
 │   RC model + Neural ΔfΦ → Corrected model f̂          │
-│   Trained on 5,000 EnergyPlus transitions             │
-│                                                        │
-│ Stage 2: Policy Optimisation                           │
-│   Neural policy πW minimises:                          │
+│   Trained on 5,000 EnergyPlus transitions            │
+│                                                      │
+│ Stage 2: Policy Optimisation                         │
+│   Neural policy πW minimises:                        │
 │   J = Σ c(E_cum)·P(k)·Δt + γ·switching_cost          │
 │   s.t. 22°C ≤ Ti ≤ 24°C (SBC 601)                    │
 │   where P(k) = Q_hvac/EER(T_out) (temp-dependent)    │
-│                                                        │
-│ Stage 3: DAgger refinement (2-3 iterations)            │
+│                                                      │
+│ Stage 3: DAgger refinement (2-3 iterations)          │
 └──────────────────────────────────────────────────────┘
 
 ONLINE (deployment on ESP32)
-┌──────────────────────────────────────────────────────┐
-│ xk → πW(xk) → uk    (<0.15 ms, no solver needed)    │
-│                                                        │
-│ Energy savings come from:                              │
+┌───────────────────────────────────────────────────────┐
+│ xk → πW(xk) → uk    (<0.15 ms, no solver needed)      │
+│                                                       │
+│ Energy savings come from:                             │
 │ 1. Pre-cooling when EER is high (morning, T_out<35°C) │
-│ 2. Avoiding Tier 2 charges (keep E_cum < 6000 kWh)   │
+│ 2. Avoiding Tier 2 charges (keep E_cum < 6000 kWh)    │
 │ 3. Exploiting thermal mass for peak-load shifting     │
-│ 4. Inter-zone coordination                             │
-└──────────────────────────────────────────────────────┘
+│ 4. Inter-zone coordination                            │
+└───────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -211,16 +211,4 @@ The author acknowledges the Deanship of Graduate Studies and Scientific Research
 
 **Software:** [NeuroMANCER](https://github.com/pnnl/neuromancer) (PNNL), [PyTorch](https://pytorch.org/), [EnergyPlus](https://energyplus.net/) (DOE)
 
----
-
-## Citation
-
-```bibtex
-@article{faraj2025rddpc_hvac,
-  author  = {Faraj, Hamzah},
-  title   = {Residual-dynamics differentiable predictive control for constrained multi-zone {HVAC} management in {Saudi} residential buildings},
-  journal = {Applied Energy},
-  year    = {2025},
-  note    = {Under review}
-}
 ```
