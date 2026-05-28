@@ -1,8 +1,4 @@
-% ============================================================
-% RD-DPC for Energy-Efficient HVAC Control
-% Target: Applied Energy, Elsevier (IF 11.0, Q1-A)
-% ============================================================
-\documentclass[12pt,preprint]{article}
+\documentclass[12pt]{article}
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage{placeins}
@@ -766,20 +762,21 @@ The current study has several limitations: (i)~the EnergyPlus validation uses th
 This paper presented RD-DPC, a residual-dynamics differentiable predictive control framework for energy-efficient HVAC management in Saudi residential buildings. By augmenting a nominal RC thermal model with a learned neural residual and optimising over the Saudi stepwise electricity tariff, the framework achieves 18.5--23.0\% energy savings and 95.1--97.2\% thermal comfort compliance within the SBC~601 range of 22--24$^\circ$C, validated across three Saudi climate zones (Riyadh, Jeddah, Abha) and against EnergyPlus co-simulation ($\varepsilon < 0.005$). The two-tier tariff-aware policy avoids Tier~2 charges during peak summer months, translating to annual cost savings of 166--450\,SAR per household. Future work will address hardware-in-the-loop validation, humidity-aware control, and extension to commercial buildings under the SEC commercial tariff.
 
 % ============================================================
-\section*{Acknowledgments}
+\section {Acknowledgments}
 The author would like to acknowledge the Deanship of Graduate Studies and Scientific Research, Taif University for funding this work.
 
-\section*{Data availability}
-All simulation code, building models, climate data, and results are available at \url{https://github.com/rd-dpc-hvac}.
+\section {Data availability}
+All simulation code, building models, climate data, and results are available at:  \href{https://github.com/drhamzahfaraj/RD-differentiable-predictive-control-for-constrained-HVAC-management-in-Saudi-residential-buildings}{\textcolor{blue}{Residual-dynamics differentiable predictive control for constrained multi-zone HVAC management in Saudi residential buildings}}.
 
-\section*{Declaration of competing interest}
+\section {Declaration of competing interest}
 The author declares no conflicts of interest.
 
-\section*{CRediT authorship contribution statement}
+\section {CRediT authorship contribution statement}
 \textbf{Hamzah Faraj}: Conceptualisation, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Writing -- original draft, Writing -- review \& editing, Visualisation.
 
-\section*{Declaration of generative AI in scientific writing}
-During the preparation of this manuscript, the author used Claude (Anthropic) for assistance with code development, literature organisation, and LaTeX formatting. The author reviewed, edited, and takes full responsibility for all content, analysis, and conclusions presented in this work.
+\section {Declaration of generative AI in scientific writing}
+The author reviewed, edited, and takes full responsibility for all content, analysis, and conclusions presented in this work.
+the author declares that no AI  was received during the preparation of this manuscript or data preparation.
 
 % ============================================================
 % REFERENCES
