@@ -1,0 +1,173 @@
+{
+  "Riyadh": {
+    "city": "Riyadh",
+    "climate": "BWh (Hot desert)",
+    "elevation_m": 612,
+    "thermal_mass": "medium",
+    "summary": {
+      "Thermostat": {
+        "annual_energy_kwh": 5390.8,
+        "energy_kwh_per_m2": 36.7,
+        "comfort_rate_pct": 73.55,
+        "T_mean_indoor_C": 23.89,
+        "T_max_indoor_C": 28.56,
+        "T_min_indoor_C": 20.29,
+        "epsilon_vs_energyplus": 0.000869,
+        "mae_vs_energyplus_C": 0.258,
+        "rmse_vs_energyplus_C": 0.322,
+        "max_error_vs_energyplus_C": 1.262,
+        "mean_power_kw": 2.462,
+        "peak_power_kw": 8.04
+      },
+      "Nominal_DPC": {
+        "annual_energy_kwh": 5123.2,
+        "energy_kwh_per_m2": 34.9,
+        "comfort_rate_pct": 82.27,
+        "T_mean_indoor_C": 24.57,
+        "T_max_indoor_C": 28.28,
+        "T_min_indoor_C": 20.73,
+        "epsilon_vs_energyplus": 0.000867,
+        "mae_vs_energyplus_C": 0.258,
+        "rmse_vs_energyplus_C": 0.322,
+        "max_error_vs_energyplus_C": 1.262,
+        "mean_power_kw": 2.339,
+        "peak_power_kw": 8.04
+      },
+      "RD_DPC": {
+        "annual_energy_kwh": 5219.3,
+        "energy_kwh_per_m2": 35.5,
+        "comfort_rate_pct": 83.71,
+        "T_mean_indoor_C": 24.24,
+        "T_max_indoor_C": 29.55,
+        "T_min_indoor_C": 20.67,
+        "epsilon_vs_energyplus": 0.000868,
+        "mae_vs_energyplus_C": 0.258,
+        "rmse_vs_energyplus_C": 0.322,
+        "max_error_vs_energyplus_C": 1.262,
+        "mean_power_kw": 2.383,
+        "peak_power_kw": 7.598
+      },
+      "savings_vs_thermostat": {
+        "Nominal_DPC_pct": 4.96,
+        "RD_DPC_pct": 3.18
+      },
+      "savings_vs_nominal_dpc": {
+        "RD_DPC_pct": -1.88
+      }
+    }
+  },
+  "Jeddah": {
+    "city": "Jeddah",
+    "climate": "BWh (Hot coastal desert)",
+    "elevation_m": 12,
+    "thermal_mass": "medium",
+    "summary": {
+      "Thermostat": {
+        "annual_energy_kwh": 5979.5,
+        "energy_kwh_per_m2": 40.7,
+        "comfort_rate_pct": 80.31,
+        "T_mean_indoor_C": 24.02,
+        "T_max_indoor_C": 27.07,
+        "T_min_indoor_C": 21.48,
+        "epsilon_vs_energyplus": 0.000826,
+        "mae_vs_energyplus_C": 0.245,
+        "rmse_vs_energyplus_C": 0.308,
+        "max_error_vs_energyplus_C": 1.063,
+        "mean_power_kw": 2.73,
+        "peak_power_kw": 8.04
+      },
+      "Nominal_DPC": {
+        "annual_energy_kwh": 5819.3,
+        "energy_kwh_per_m2": 39.6,
+        "comfort_rate_pct": 99.18,
+        "T_mean_indoor_C": 24.73,
+        "T_max_indoor_C": 26.81,
+        "T_min_indoor_C": 23.97,
+        "epsilon_vs_energyplus": 0.000824,
+        "mae_vs_energyplus_C": 0.245,
+        "rmse_vs_energyplus_C": 0.308,
+        "max_error_vs_energyplus_C": 1.063,
+        "mean_power_kw": 2.657,
+        "peak_power_kw": 8.04
+      },
+      "RD_DPC": {
+        "annual_energy_kwh": 5926.9,
+        "energy_kwh_per_m2": 40.3,
+        "comfort_rate_pct": 99.18,
+        "T_mean_indoor_C": 24.4,
+        "T_max_indoor_C": 27.74,
+        "T_min_indoor_C": 23.54,
+        "epsilon_vs_energyplus": 0.000825,
+        "mae_vs_energyplus_C": 0.245,
+        "rmse_vs_energyplus_C": 0.308,
+        "max_error_vs_energyplus_C": 1.063,
+        "mean_power_kw": 2.706,
+        "peak_power_kw": 7.598
+      },
+      "savings_vs_thermostat": {
+        "Nominal_DPC_pct": 2.68,
+        "RD_DPC_pct": 0.88
+      },
+      "savings_vs_nominal_dpc": {
+        "RD_DPC_pct": -1.85
+      }
+    }
+  },
+  "Abha": {
+    "city": "Abha",
+    "climate": "BWk/Cwa (Mild highland)",
+    "elevation_m": 2270,
+    "thermal_mass": "medium",
+    "summary": {
+      "Thermostat": {
+        "annual_energy_kwh": 3899.6,
+        "energy_kwh_per_m2": 26.5,
+        "comfort_rate_pct": 66.9,
+        "T_mean_indoor_C": 23.72,
+        "T_max_indoor_C": 26.7,
+        "T_min_indoor_C": 20.3,
+        "epsilon_vs_energyplus": 0.000847,
+        "mae_vs_energyplus_C": 0.251,
+        "rmse_vs_energyplus_C": 0.315,
+        "max_error_vs_energyplus_C": 1.539,
+        "mean_power_kw": 1.781,
+        "peak_power_kw": 8.04
+      },
+      "Nominal_DPC": {
+        "annual_energy_kwh": 3778.3,
+        "energy_kwh_per_m2": 25.7,
+        "comfort_rate_pct": 76.61,
+        "T_mean_indoor_C": 24.37,
+        "T_max_indoor_C": 25.87,
+        "T_min_indoor_C": 20.71,
+        "epsilon_vs_energyplus": 0.000845,
+        "mae_vs_energyplus_C": 0.251,
+        "rmse_vs_energyplus_C": 0.315,
+        "max_error_vs_energyplus_C": 1.539,
+        "mean_power_kw": 1.725,
+        "peak_power_kw": 8.04
+      },
+      "RD_DPC": {
+        "annual_energy_kwh": 3892.6,
+        "energy_kwh_per_m2": 26.5,
+        "comfort_rate_pct": 78.74,
+        "T_mean_indoor_C": 23.98,
+        "T_max_indoor_C": 26.01,
+        "T_min_indoor_C": 20.63,
+        "epsilon_vs_energyplus": 0.000847,
+        "mae_vs_energyplus_C": 0.251,
+        "rmse_vs_energyplus_C": 0.315,
+        "max_error_vs_energyplus_C": 1.539,
+        "mean_power_kw": 1.777,
+        "peak_power_kw": 7.598
+      },
+      "savings_vs_thermostat": {
+        "Nominal_DPC_pct": 3.11,
+        "RD_DPC_pct": 0.18
+      },
+      "savings_vs_nominal_dpc": {
+        "RD_DPC_pct": -3.03
+      }
+    }
+  }
+}
