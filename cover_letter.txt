@@ -1,0 +1,30 @@
+Dear Editor-in-Chief,
+
+I am writing to submit the manuscript entitled "Residual-dynamics differentiable predictive control for constrained multi-zone HVAC management in Saudi residential buildings" for consideration in Applied Energy.
+
+Saudi residential buildings consume over 50% of the Kingdom's electricity, with HVAC systems accounting for approximately half of that consumption. Despite this, intelligent HVAC control methods have been developed and validated primarily for temperate European and North American climates, with limited attention to the extreme conditions of the Arabian Peninsula—where outdoor temperatures exceed 45°C, cooling is required nearly year-round, and the electricity tariff structure differs fundamentally from time-of-use pricing common elsewhere.
+
+This manuscript addresses this gap by presenting RD-DPC, a differentiable predictive control framework that learns a neural HVAC policy offline using a residual-corrected building thermal model. The work makes three contributions relevant to Applied Energy's readership:
+
+1. A stepwise tariff-aware cost formulation that captures the Saudi residential electricity pricing structure, where marginal cost increases by 67% above 6,000 kWh/month—creating a qualitatively different optimisation problem from the linear or quadratic cost models used in prior DPC studies.
+
+2. A multi-zone validation on a realistic 5-zone Saudi villa equipped with commercially available T3-rated split AC units, evaluated across three distinct Saudi climate zones (Riyadh, Jeddah, Abha) with annual temperature profiles.
+
+3. A techno-economic analysis showing an 18-month payback period at a deployment cost of approximately 680 SAR per household, with national-scale potential of 612 GWh annual savings and 408 MW peak demand reduction at 10% adoption.
+
+The manuscript has not been submitted elsewhere and is not under consideration at any other journal. All simulation code, trained models, and building specifications are provided for reproducibility.
+
+Suggested reviewers:
+— Prof. Sébastien Gros, NTNU, Norway (sebastien.gros@ntnu.no): learning-based MPC with safety guarantees
+— Prof. Mario Zanon, IMT Lucca, Italy (mario.zanon@imtlucca.it): reinforcement learning for MPC
+— Prof. Rolf Findeisen, TU Darmstadt, Germany (rolf.findeisen@iat.tu-darmstadt.de): neural network MPC with guarantees
+— Prof. Panagiotis Christofides, UCLA, USA (pdc@seas.ucla.edu): ML-based MPC for process/building systems
+
+Thank you for considering this submission.
+
+Sincerely,
+Hamzah Faraj
+Department of Computer Science
+Taif University, Taif 21944, Saudi Arabia
+h.faraj@tu.edu.sa
+ORCID: 0009-0009-8832-0407
