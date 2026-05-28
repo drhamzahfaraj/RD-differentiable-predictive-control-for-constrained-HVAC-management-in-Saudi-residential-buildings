@@ -1,0 +1,13 @@
+{
+  "Thermostat": {
+    "energy_kwh": 32941,
+    "cost_sar": 6819,
+    "comfort_pct": 4.1
+  },
+  "RD-DPC": {
+    "energy_kwh": 35594,
+    "cost_sar": 7368,
+    "comfort_pct": 60.4
+  },
+  "savings_pct": -8.1
+}

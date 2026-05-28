@@ -1,0 +1,19 @@
+{
+  "Thermostat": {
+    "annual_energy_kwh": 32795.7,
+    "annual_cost_sar": 6788.7,
+    "comfort_pct": 3.48,
+    "T_mean": 24.1200008392334,
+    "T_max": 33.56999969482422,
+    "T_min": 14.109999656677246
+  },
+  "RD-DPC": {
+    "annual_energy_kwh": 39609.7,
+    "annual_cost_sar": 8199.2,
+    "comfort_pct": 1.06,
+    "T_mean": 21.889999389648438,
+    "T_max": 43.63999938964844,
+    "T_min": 2.9200000762939453
+  },
+  "savings_pct": -20.78
+}

@@ -1,0 +1,17 @@
+{
+  "Riyadh": {
+    "final_loss": 638799.4375,
+    "best_loss": 420770.71875,
+    "training_time_s": 39.9
+  },
+  "Jeddah": {
+    "final_loss": 110110.1953125,
+    "best_loss": 67575.7265625,
+    "training_time_s": 39.0
+  },
+  "Abha": {
+    "final_loss": 174324.4375,
+    "best_loss": 116187.1796875,
+    "training_time_s": 41.7
+  }
+}

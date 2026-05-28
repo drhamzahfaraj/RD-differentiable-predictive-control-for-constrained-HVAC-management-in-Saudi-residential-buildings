@@ -1,0 +1,14 @@
+{
+  "Jeddah": {
+    "best_loss": 11372.2255859375,
+    "T_mean": 22.9,
+    "in_range_pct": 22.8,
+    "time_s": 112
+  },
+  "Abha": {
+    "best_loss": 33300.875,
+    "T_mean": 22.6,
+    "in_range_pct": 13.3,
+    "time_s": 109
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Riyadh": {
+    "residual_val_loss": 0.5084181427955627,
+    "residual_improvement_pct": 78.1
+  },
+  "Jeddah": {
+    "residual_val_loss": 0.38041606545448303,
+    "residual_improvement_pct": 83.6
+  },
+  "Abha": {
+    "residual_val_loss": 0.24139286577701569,
+    "residual_improvement_pct": 89.6
+  }
+}

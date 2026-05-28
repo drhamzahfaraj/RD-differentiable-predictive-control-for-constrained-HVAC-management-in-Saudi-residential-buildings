@@ -1,0 +1,47 @@
+{
+  "Riyadh": {
+    "Thermostat": {
+      "energy_kwh": 33562,
+      "cost_sar": 6947,
+      "comfort_pct": 1.6
+    },
+    "RD-DPC": {
+      "energy_kwh": 37848,
+      "cost_sar": 7835,
+      "comfort_pct": 1.2
+    },
+    "savings_pct": -12.8,
+    "residual_improvement_pct": 99.2,
+    "training_time_s": 64
+  },
+  "Jeddah": {
+    "Thermostat": {
+      "energy_kwh": 42601,
+      "cost_sar": 8818,
+      "comfort_pct": 1.1
+    },
+    "RD-DPC": {
+      "energy_kwh": 51231,
+      "cost_sar": 10605,
+      "comfort_pct": 4.8
+    },
+    "savings_pct": -20.3,
+    "residual_improvement_pct": 91.6,
+    "training_time_s": 64
+  },
+  "Abha": {
+    "Thermostat": {
+      "energy_kwh": 12412,
+      "cost_sar": 2569,
+      "comfort_pct": 4.2
+    },
+    "RD-DPC": {
+      "energy_kwh": 12806,
+      "cost_sar": 2651,
+      "comfort_pct": 2.2
+    },
+    "savings_pct": -3.2,
+    "residual_improvement_pct": 95.4,
+    "training_time_s": 62
+  }
+}
