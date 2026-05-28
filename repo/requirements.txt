@@ -1,0 +1,18 @@
+# RD-DPC HVAC — Requirements
+# Python >= 3.10
+
+# Core simulation
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Neural network training (for policy training on local machine)
+torch>=2.1.0
+neuromancer>=1.4.0
+
+# EnergyPlus interface (optional, for co-simulation)
+# eppy>=0.5.63
+# geomeppy>=0.11
+
+# Utilities
+tqdm>=4.65.0

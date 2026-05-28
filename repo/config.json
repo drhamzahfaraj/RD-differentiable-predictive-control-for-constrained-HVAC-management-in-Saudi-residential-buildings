@@ -1,0 +1,60 @@
+{
+  "building": {
+    "name": "Saudi Residential Villa",
+    "total_area_m2": 147,
+    "ceiling_height_m": 3.0,
+    "zones": [
+      {"name": "Bedroom 1", "area_m2": 20, "ac_size": "small", "occupants": 1.0},
+      {"name": "Bedroom 2", "area_m2": 22, "ac_size": "small", "occupants": 1.0},
+      {"name": "Living Room", "area_m2": 40, "ac_size": "large", "occupants": 3.0},
+      {"name": "Kitchen/Dining", "area_m2": 30, "ac_size": "medium", "occupants": 2.0},
+      {"name": "Master Bedroom", "area_m2": 35, "ac_size": "medium", "occupants": 2.0}
+    ]
+  },
+  "hvac_units": {
+    "small":  {"capacity_btu": 12600, "capacity_kw": 3.69, "eer_rated": 3.2, "power_kw": 1.15},
+    "medium": {"capacity_btu": 18500, "capacity_kw": 5.42, "eer_rated": 3.0, "power_kw": 1.81},
+    "large":  {"capacity_btu": 21000, "capacity_kw": 6.15, "eer_rated": 2.9, "power_kw": 2.12}
+  },
+  "eer_degradation": {
+    "alpha_deg": 0.018,
+    "reference_temp_C": 35
+  },
+  "tariff": {
+    "tier1_rate_sar": 0.18,
+    "tier2_rate_sar": 0.30,
+    "tier1_limit_kwh": 6000,
+    "vat_pct": 15
+  },
+  "comfort": {
+    "T_min_C": 22,
+    "T_max_C": 24,
+    "setpoint_C": 24,
+    "standard": "SBC 601"
+  },
+  "simulation": {
+    "dt_seconds": 900,
+    "prediction_horizon_steps": 24,
+    "seeds": [0, 1, 2, 3, 4],
+    "cities": ["Riyadh", "Jeddah", "Abha"],
+    "thermal_mass_scenarios": ["low", "medium", "high"]
+  },
+  "training": {
+    "policy_layers": 4,
+    "policy_neurons": 64,
+    "residual_layers": 3,
+    "residual_neurons": 64,
+    "activation": "GeLU",
+    "optimizer": "AdamW",
+    "learning_rate": 1e-3,
+    "weight_decay": 1e-4,
+    "epochs_residual": 200,
+    "epochs_policy": 500,
+    "batch_size": 1000,
+    "dagger_iterations": 3,
+    "dagger_transitions": 2000,
+    "Q_comfort": 100,
+    "Q_switching": 5,
+    "Q_cost": 1
+  }
+}
